@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "ff37a63885fc57b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "d86001b63f6e2ac6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29b1253b7511c6b9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "1b507ec6dfc9b5e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Homelab.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Homelab"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3fcd5ac07bd12c5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c7d7dd9095b261c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ebc763618a67b81",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "67df0a549bca78b8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d909f5830b395b05",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "befc84ae6e613640",
+    "type": "split",
+    "children": [
+      {
+        "id": "f19c67e7cdda2cbf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1031c6eeb4e91e01",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "k3s/High Availability (HA).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for High Availability (HA)"
+            }
+          },
+          {
+            "id": "73b0d361d02d975a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "k3s/High Availability (HA).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from High Availability (HA)"
+            }
+          },
+          {
+            "id": "7f5f50a0c17155e4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "02495c241bf6b243",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "k3s/High Availability (HA).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of High Availability (HA)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1b507ec6dfc9b5e3",
+  "lastOpenFiles": [
+    "Nodes/RaspberryPi v5.md",
+    "k3s/High Availability (HA).md",
+    "k3s/Kubernetes.md",
+    "k3s/Installation - Pi.md",
+    "Untitled.md",
+    "Homelab.md",
+    "k3s",
+    "Nodes/Nodes.md",
+    "Nodes",
+    "Welcome.md"
+  ]
+}
