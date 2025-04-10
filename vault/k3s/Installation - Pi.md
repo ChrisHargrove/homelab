@@ -1,3 +1,9 @@
+---
+tags:
+  - k3s
+  - installation
+  - hardware
+---
 [Link](https://docs.k3s.io/installation/requirements)
 ## Setup Pi
 ### Install Raspbian into Pi
@@ -61,6 +67,7 @@ Using this token we can attach the new node.
 sudo curl -sfL https://get.k3s.io | K3S_URL=https://<master_node_ip>:6443 K3S_TOKEN=<your_token> sh -
 ```
 Replace the master node ip to be the first node ip address in the local network and the token with the token we got in the previous command.
+
 To verify the new node installation we can run the following.
 ```bash
 sudo kubectl get nodes
@@ -75,6 +82,7 @@ brew install kubectl
 ```
 
 Now that the machine is all setup and running now we need to administrate it. This can be done on the machine or we can do it from another machine.
+
 To do this we need the .kube/config file. When using k3s this can be found at location:
 ```
 /etc/rancher/k3s/k3s.yaml
@@ -85,7 +93,9 @@ On the administrating machine run the following code:
 ```bash
 scp <host>@<ip-address>:/etc/rancher/k3s/k3s.yaml ~/k3s.yaml
 ```
-In the event that this command doesn't work you can cat the file to the terminal and create it manually on your machine.
+
+> [!tip]
+> In the event that this command doesn't work you can cat the file to the terminal and create it manually on your machine.
 
 We now need to edit this file so that it points to the remote machine, this is done by editing the server to point at one of the master nodes in the cluster.
 ```yaml

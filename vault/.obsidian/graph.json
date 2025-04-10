@@ -5,18 +5,47 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#hardware  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#app  ",
+      "color": {
+        "a": 1,
+        "rgb": 5417696
+      }
+    },
+    {
+      "query": "tag:#storage",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "tag:#k3s  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701173
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "nodeSizeMultiplier": 0.96072998046875,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 0.842488606770833,
+  "repelStrength": 17.3087565104167,
   "linkStrength": 1,
-  "linkDistance": 250,
+  "linkDistance": 115,
   "scale": 1.6506061670064545,
-  "close": true
+  "close": false
 }

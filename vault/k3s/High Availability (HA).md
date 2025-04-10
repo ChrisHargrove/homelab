@@ -1,3 +1,7 @@
+---
+tags:
+  - k3s
+---
 Is the ability of a system to operate without interruption for a set amount of time, even if some of the components fail.
 ## How it works
 ### Redundancy

@@ -1,3 +1,7 @@
+---
+tags:
+  - hardware
+---
 This node is the most recent release of Raspberry Pi. [Link](https://thepihut.com/products/raspberry-pi-5?srsltid=AfmBOoolq_WCDWZSfYQiNYAca3yogbm7xLJNOWkTpp4fNddDTLSTHz7_&variant=42531604955331)
 
 ## Features
